@@ -46,7 +46,7 @@ def define_aposta():
 
 try:
     num_ap = int(input('Esse programa gera um conjunto de 4 apostas.\nQuantos conjuntos você quer gerar?\n'))
-    if num_ap == 1:
+    if num_ap <= 1:
         define_aposta()
     else:
         while num_ap > 0:
